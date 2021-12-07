@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Zen+Kaku+Gothic+New&display=swap');
+
+body{
+background-image: linear-gradient(to right, #A1D6EA, #D4EFF9, #F2FBFE);
+font-family: 'Libre Baskerville', serif;
+}
+
+*{
+margin: 0px;
+padding:0px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  border-bottom: #f09b05 0.38vh solid;
+  border-top: #f09b05 0.315vh solid;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+.content {
+  padding-top: 102px;
+}
+
+.headtext{
+  display: flex;
+  margin: 2vh;
+  padding:1vh;
+  gap: 57vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .headtext {
+    gap: 40vw
+  }
+}
+
+.titlediv{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2vw;
+  font-family: 'DM Serif Display', serif;
+  transform: scale(1.3)
+}
+
+
+.links{
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  padding-top: 0.5vh;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.biocontainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row
+  margin-top: 2%;
+  margin-bottom: 11%;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  gap: 5vw;
+  margin-top: 11%;
+  border: 2vh solid black;
+  padding: 4vh
+}
+
+.bioimg{
+  width: 149.63px;
+ height: 434.88px;
+}
+
+#gradpic{
+   width: 149.63px;
+  height: 434.88px;
+}
+
+
+.biotext{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2%
+}
+.skillcontainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+.skilltitle{
+  display: flex;
+  justify-content: center;
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  gap: 4%
+}
+
+.skillimg {
+  width: 5%;
+  height: 5%;
+}
+
+ @media only screen and (max-width: 1024px) {
+  .skillimg {
+    width: 122.5px;
+    height: 122.5px
+  }
+}
+
+
+#reactimg{
+  padding-top: 3vh
+}
+
+#jsimg{
+  padding-top: 1vh
+}
+
+#jqueryimg{
+  padding-top: -1vh
+}
+
+#expressimg{
+ padding-top: 4vh
+}
+
+.buttonsdiv{
+  display: flex;
+  gap: 2vw
+}
+
+.resumebutton{
+  background-color: #f09b05;
+  border: none;
+  padding: 2vw;
+  font-weight: bolder;
+}
+
+.resumebutton:hover{
+    background-color: #FEE3BC;
+    transition-duration:1s;
+}
+
+.contactbutton{
+  background-color: #f09b05;
+  border: none;
+  padding: 2vw;
+  font-weight: bold;
+}
+
+.contactbutton:hover{
+    background-color: #FEE3BC;
+    transition-duration:1s;
+}
+
+
+.about{
+  background-image: url("https://wallup.net/wp-content/uploads/2018/03/19/581773-New_York_City-sunset-cityscape-Empire_State_Building-30_Rockefeller_Plaza-top_of_the_rock-helicopter-scyscrapers-USA-Manhattan-building-One_World_Trade_Center.jpg");
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15%;
+  color: white;
+
+}
+
+.aboutText{
+  display: flex;
+  font-size: 3rem;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+
+#projimg1{
+  width: 1002.4px;
+  height: 537.6px;
+  margin-bottom: 3vh
+}
+
+@media only screen and (max-width: 1024px) {
+  #projimg1{
+  width: 40vh;
+  height: 21vh
+  }
+}
+
+#proj2img1{
+  width: 817.33px;
+  height: 453.33px
+}
+
+#proj2img2{
+  width: 850.6667px;
+  height: 286px;
+  margin-bottom: 3vh
+}
+
+#proj3img{
+  width: 847.33px;
+  height: 458.66px;
+  margin-bottom: 3vh
+}
+
+#proj4img1{
+  width: 853.33px;
+  height: 460.66px;
+}
+
+#proj4img2{
+  width: 838.66px;
+  height: 459.33;
+  margin-bottom: 3vh
+}
+
+.slideshow-container{
+  display: flex;
+  flex-direction: column;
+  margin: 1.5vh;
+  gap: 10%;
+  text-align: center;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #f09b05;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #FEE3BC;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.footer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* position: fixed; */
+  gap: 3px;
+  bottom: 3;
+  left:3;
+  right:3;
+  width: 100%;
+}
+
+.footer a{
+  padding: 15px;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-size: 60%;
+  color: black;
+}
+
+.githubrepo img{
+  width: 28px;
+  height: 28px;
+}
+
+.linkedin img{
+  width: 28px;
+  height: 28px;
+}
