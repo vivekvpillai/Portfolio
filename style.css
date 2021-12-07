@@ -46,6 +46,13 @@ padding:0px;
   }
 }
 
+@media only screen and (min-width: 1400px) {
+  .headtext {
+    gap: 70vw
+  }
+}
+
+
 .titlediv{
   display: flex;
   justify-content: flex-start;
@@ -71,7 +78,7 @@ padding:0px;
   margin-bottom: 11%;
   margin-left: 8vw;
   margin-right: 8vw;
-  gap: 5vw;
+  gap: 4vw;
   margin-top: 11%;
   border: 2vh solid black;
   padding: 4vh
@@ -85,6 +92,7 @@ padding:0px;
 #gradpic{
    width: 149.63px;
   height: 434.88px;
+  margin-left: 1vw
 }
 
 
