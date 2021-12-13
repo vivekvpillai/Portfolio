@@ -74,6 +74,7 @@ padding:0px;
 .alink{
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 .biocontainer{
@@ -135,11 +136,15 @@ padding:0px;
 }
 
 .projtext{
-  margin-bottom: 4vh
+  margin-bottom: 0.7vh
 }
 
 .projimg{
   margin-top: 4vh
+}
+
+.movebuttons{
+  margin-bottom: 4vh
 }
 
  @media only screen and (max-width: 1024px) {
@@ -166,6 +171,10 @@ padding:0px;
  padding-top: 4vh
 }
 
+.projtitle{
+  margin-bottom: 1vh
+}
+
 .buttonsdiv{
   display: flex;
   gap: 2vw
@@ -181,7 +190,7 @@ padding:0px;
 
 .resumebutton:hover{
     background-color: #FEE3BC;
-    transition-duration:1s;
+    transition-duration:0.29s;
 }
 
 .contactbutton{
@@ -194,7 +203,7 @@ padding:0px;
 
 .contactbutton:hover{
     background-color: #FEE3BC;
-    transition-duration:1s;
+    transition-duration:0.29s;
 }
 
 
@@ -227,19 +236,19 @@ padding:0px;
   color: #fff;
   cursor: pointer;
   height: 4vh;
-  margin: 2vh 0 0 1vh;
+  margin: 2vh 0 -1vh 1vh;
   padding: 1vh 1vh 1.5vh 1vh;
-  outline: none;
-  overflow: hidden;
-  position: relative;
   text-align: center;
-  text-transform: none;
-  transform: translateZ(0);
-  transition: all .2s,box-shadow .08s ease-in;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   font-weight: bolder;
+  height: 41px
+}
+
+.gitbutton:hover{
+ background-color: #9cdaf0;
+ transition-duration: 0.29s
 }
 
 
@@ -249,24 +258,23 @@ padding:0px;
   background-color: #79589f;
   border-radius: 6px;
   border-width: 0;
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
   box-sizing: border-box;
   color: white;
   cursor: pointer;
   height: 4vh;
   margin: 2vh 0 0 1vh;
-  padding: 1vh 1vh 1.5vh 1vh;
-  outline: none;
-  overflow: hidden;
-  position: relative;
+  padding: 1vh 1vh 2vh 1vh;
   text-align: center;
-  text-transform: none;
-  transform: translateZ(0);
-  transition: all .2s,box-shadow .08s ease-in;
   user-select: none;
   -webkit-user-select: none;
   font-family: 'Libre Franklin', sans-serif;
 }
+
+.sitebutton:hover{
+ background-color: #bfacd4;
+ transition-duration: 0.29s
+}
+
 
 .gitlogo{
   max-height: 2vh;
@@ -332,12 +340,13 @@ padding:0px;
 }
 
 
-/* Hide the images by default */
+
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
+
+
 .prev, .next {
   padding: 16px;
   color: white;
@@ -346,10 +355,19 @@ padding:0px;
   transition: 0.6s ease;
 }
 
-/* Position the "next button" to the right */
 .next {
   bottom: 1;
   right: 0;
+}
+
+.next:hover{
+  padding-left: 1.4vw;
+  transition-duration: 0.29s
+}
+
+.prev:hover{
+  padding-right: 1.4vw;
+  transition-duration: 0.29s
 }
 
 .nextdiv{
@@ -367,12 +385,11 @@ padding:0px;
   justify-content: center
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* The dots/bullets/indicators */
+
 .dot {
   cursor: pointer;
   height: 1.05vh;
@@ -382,7 +399,7 @@ padding:0px;
   border-radius: 50%;
   border: 1px solid black;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.2s ease;
 }
 
 .active, .dot:after {
@@ -390,7 +407,6 @@ padding:0px;
   border: 1px solid black;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -421,7 +437,6 @@ padding:0px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  /* position: fixed; */
   gap: 3px;
   bottom: 3;
   left:3;
@@ -431,7 +446,6 @@ padding:0px;
 
 .footer a{
   padding: 15px;
-  /* font-family: 'Josefin Sans', sans-serif; */
   font-size: 60%;
   color: black;
 }
