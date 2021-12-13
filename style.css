@@ -339,23 +339,32 @@ padding:0px;
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  width: auto;
   padding: 16px;
   color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
+  bottom: 1;
   right: 0;
-  bottom: 8;
-  border-radius: 3px 0 0 3px;
+}
+
+.nextdiv{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.prevdiv{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.movebuttons{
+  display: flex;
+  justify-content: center
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -367,14 +376,13 @@ padding:0px;
 .dot {
   cursor: pointer;
   height: 1.05vh;
-  width: 0.25vh;
+  width: 1.05vh;
   margin: 0 0.12vw;
   background-color: black;
   border-radius: 50%;
   border: 1px solid black;
   display: inline-block;
   transition: background-color 0.6s ease;
-  width: 10px
 }
 
 .active, .dot:after {
@@ -436,4 +444,8 @@ padding:0px;
 .linkedin img{
   width: 28px;
   height: 28px;
+}
+
+.FirstLdImg{
+  display: block
 }
