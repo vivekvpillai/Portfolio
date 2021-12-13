@@ -172,8 +172,14 @@ padding:0px;
 }
 
 .projtitle{
-  margin-bottom: 1vh
+  margin-bottom: 1.9vh;
+  font-weight: bolder
 }
+
+.techused{
+  margin-bottom: 0.6vh
+}
+
 
 .buttonsdiv{
   display: flex;
