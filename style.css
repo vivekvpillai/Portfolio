@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Zen+Kaku+Gothic+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
 
 body{
-background-image: linear-gradient(to right, #A1D6EA, #D4EFF9, #F2FBFE);
+background-image: linear-gradient(to right, #A1D6EA, #D4EFF9, #F5FDFF);
 font-family: 'Libre Baskerville', serif;
 }
 
@@ -78,7 +79,7 @@ padding:0px;
 .biocontainer{
   display: flex;
   justify-content: center;
-  flex-direction: row
+  flex-direction: row;
   margin-top: 2%;
   margin-bottom: 11%;
   margin-left: 8vw;
@@ -86,7 +87,9 @@ padding:0px;
   gap: 4vw;
   margin-top: 11%;
   border: 2vh solid black;
-  padding: 4vh
+  padding: 4vh;
+  background-color: black;
+  color: white;
 }
 
 .bioimg{
@@ -131,6 +134,14 @@ padding:0px;
   height: 5%;
 }
 
+.projtext{
+  margin-bottom: 4vh
+}
+
+.projimg{
+  margin-top: 4vh
+}
+
  @media only screen and (max-width: 1024px) {
   .skillimg {
     width: 122.5px;
@@ -165,6 +176,7 @@ padding:0px;
   border: none;
   padding: 2vw;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .resumebutton:hover{
@@ -177,6 +189,7 @@ padding:0px;
   border: none;
   padding: 2vw;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .contactbutton:hover{
@@ -203,10 +216,70 @@ padding:0px;
 
 }
 
+.gitbutton{
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #161c22;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 4vh;
+  margin: 2vh 0 0 1vh;
+  padding: 1vh 1vh 1.5vh 1vh;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-weight: bolder;
+}
+
+
+.sitebutton{
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #79589f;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  height: 4vh;
+  margin: 2vh 0 0 1vh;
+  padding: 1vh 1vh 1.5vh 1vh;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.gitlogo{
+  max-height: 2vh;
+  max-width: 2vh;
+  margin-bottom: -0.32vh;
+  margin-right: 0.5vw
+}
+
 #projimg1{
   width: 1002.4px;
   height: 537.6px;
-  margin-bottom: 3vh
+  margin-bottom: 3vh;
+  margin-top: 3vh
 }
 
 @media only screen and (max-width: 1024px) {
@@ -250,6 +323,12 @@ padding:0px;
   margin: 1.5vh;
   gap: 10%;
   text-align: center;
+  background-color: black;
+  color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-bottom: #f09b05 0.315vh solid;
+  border-top: #f09b05 0.315vh solid;
 }
 
 
@@ -262,9 +341,7 @@ padding:0px;
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -277,6 +354,7 @@ padding:0px;
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  bottom: 8;
   border-radius: 3px 0 0 3px;
 }
 
@@ -288,17 +366,20 @@ padding:0px;
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #f09b05;
+  height: 1.05vh;
+  width: 0.25vh;
+  margin: 0 0.12vw;
+  background-color: black;
   border-radius: 50%;
+  border: 1px solid black;
   display: inline-block;
   transition: background-color 0.6s ease;
+  width: 10px
 }
 
-.active, .dot:hover {
-  background-color: #FEE3BC;
+.active, .dot:after {
+  background-color: #f09b05;
+  border: 1px solid black;
 }
 
 /* Fading animation */
@@ -319,6 +400,14 @@ padding:0px;
   to {opacity: 1}
 }
 
+.mediaFoot{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0.95vw;
+  margin-top: 6vh;
+  margin-bottom: -1vh;
+  font-weight: bolder
+}
 
 .footer{
   display: flex;
