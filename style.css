@@ -484,7 +484,7 @@ padding:0px;
 
 
   .headtext {
-    gap: 30vw;
+    gap: 35vw;
     margin-top: 0.8vh;
     width: 375px;
     margin-right: -1vw
@@ -541,7 +541,6 @@ padding:0px;
     height: 217.44px
   }
 
-
   .biotext{
     font-size: 10px
   }
@@ -554,8 +553,6 @@ padding:0px;
   .skilltitle{
     font-size: 60%
   }
-
-
 
   .skillimg{
     width: 17px;
