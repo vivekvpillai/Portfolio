@@ -38,7 +38,7 @@ padding:0px;
   display: flex;
   margin: 2vh;
   padding:1vh;
-  gap: 70vw;
+  gap: 55vw;
 }
 
 
@@ -498,7 +498,7 @@ padding:0px;
 
 
   .headtext {
-    gap: 37vw;
+    gap: 35.3vw;
     margin-top: 0.8vh;
     width: 375px;
     margin-right: -1vw
