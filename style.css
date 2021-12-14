@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Zen+Kaku+Gothic+New&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
 
@@ -172,7 +172,7 @@ padding:0px;
 
 .buttonsdiv{
   display: flex;
-  gap: 2vw
+  gap: 1vw
 }
 
 .resumebutton{
@@ -217,7 +217,7 @@ padding:0px;
   font-size: 3rem;
   justify-content: flex-start;
   flex-direction: column;
-  margin-left: -40px
+  margin-left: -120px
 }
 
 .gitbutton{
@@ -474,15 +474,7 @@ padding:0px;
 
 
  @media (max-width: 400px) {
-  .skills{
-    display: flex;
-    flex-direction: column;
-  }
 
-  .skillimg{
-    width: 2px;
-    height: 2px
-  }
 
   .header{
     height: 60px;
@@ -517,6 +509,22 @@ padding:0px;
     font-size: 10px
   }
 
+  .buttonsdiv{
+    color: black
+  }
+
+  .resumebutton{
+    width: 100%;
+    height: 100%;
+    font-size: 70%
+  }
+
+  .contactbutton{
+    width: 100%;
+    height: 100%;
+    font-size: 70%
+  }
+
   .biocontainer{
     margin-left: 0;
     margin-right: 0
@@ -543,16 +551,37 @@ padding:0px;
     transform: scale(1.7);
   }
 
-  .resumebutton{
-    width: 100%;
-    height: 100%;
-    font-size: 70%
+  .skilltitle{
+    font-size: 60%
   }
 
-  .contactbutton{
-    width: 100%;
-    height: 100%;
-    font-size: 70%
+
+
+  .skillimg{
+    width: 17px;
+    height: 17px
+  }
+
+  #reactimg{
+    width: 30px;
+    height: 10px;
+    padding-top: 5px
+  }
+
+  #jsimg{
+    padding-top:0px;
+    width: 27px;
+    height: 21px;
+  }
+
+  #jqueryimg{
+    padding-top: -1vh;
+  }
+
+  #expressimg{
+   width: 21.5px;
+   height: 5px;
+   padding-top: 6px
   }
 
   #projimg1{
