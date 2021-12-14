@@ -431,10 +431,17 @@ padding:0px;
 .mediaFoot{
   display: flex;
   justify-content: flex-start;
-  margin-left: 0.95vw;
+  margin-left: 0.75vw;
   margin-top: 6vh;
   margin-bottom: -1vh;
-  font-weight: bolder
+  font-weight: bolder;
+  font-size: 120%
+}
+
+.mailto{
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 130%
 }
 
 .footer{
@@ -477,8 +484,11 @@ padding:0px;
 
 
 
- @media (max-width: 400px) {
 
+
+
+
+ @media (max-width: 400px) {
 
   .header{
     height: 60px;
@@ -488,7 +498,7 @@ padding:0px;
 
 
   .headtext {
-    gap: 32.5vw;
+    gap: 33vw;
     margin-top: 0.8vh;
     width: 375px;
     margin-right: -1vw
