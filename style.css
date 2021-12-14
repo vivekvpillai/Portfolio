@@ -277,10 +277,11 @@ padding:0px;
 
 
 .gitlogo{
-  max-height: 1.725vh;
-  max-width: 1.725vh;
-  margin-bottom: -0.4vh;
-  margin-right: 0.5vw
+  max-height: 13.3px;
+  max-width: 13.3px;
+  margin-bottom: -0.15vh;
+  margin-right: 0.35vw;
+
 }
 
 #projimg1{
