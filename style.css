@@ -41,6 +41,12 @@ padding:0px;
   gap: 58vw;
 }
 
+@media only screen and (min-width: 1400px) {
+  .headtext {
+    gap: 70vw
+  }
+}
+
 
 .titlediv{
   display: flex;
