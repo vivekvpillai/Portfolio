@@ -38,14 +38,7 @@ padding:0px;
   display: flex;
   margin: 2vh;
   padding:1vh;
-  gap: 57vw;
-}
-
-
-@media only screen and (min-width: 1400px) {
-  .headtext {
-    gap: 70vw
-  }
+  gap: 70vw;
 }
 
 
@@ -505,7 +498,7 @@ padding:0px;
 
 
   .headtext {
-    gap: 35vw;
+    gap: 37vw;
     margin-top: 0.8vh;
     width: 375px;
     margin-right: -1vw
