@@ -365,12 +365,12 @@ padding:0px;
 }
 
 .next:hover{
-  padding-left: 1.4vw;
+  padding-left: 1.7vw;
   transition-duration: 0.29s
 }
 
 .prev:hover{
-  padding-right: 1.4vw;
+  padding-right: 1.7vw;
   transition-duration: 0.29s
 }
 
@@ -431,7 +431,7 @@ padding:0px;
 .mediaFoot{
   display: flex;
   justify-content: flex-start;
-  margin-left: 0.75vw;
+  margin-left: 0.9vw;
   margin-top: 6vh;
   margin-bottom: -1vh;
   font-weight: bolder;
