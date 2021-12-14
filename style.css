@@ -217,7 +217,7 @@ padding:0px;
   font-size: 3rem;
   justify-content: flex-start;
   flex-direction: column;
-
+  margin-left: -40px
 }
 
 .gitbutton{
@@ -289,19 +289,20 @@ padding:0px;
 
 #proj2img1{
   width: 817.33px;
-  height: 453.33px
+  height: 453.33px;
+  margin-top: 2vh
 }
 
 #proj2img2{
   width: 850.6667px;
   height: 286px;
-  margin-bottom: 3vh
+  margin-bottom: 2vh
 }
 
 #proj3img{
   width: 847.33px;
   height: 458.66px;
-  margin-bottom: 3vh
+  margin-bottom: 2vh
 }
 
 #proj4img1{
@@ -312,7 +313,14 @@ padding:0px;
 #proj4img2{
   width: 838.66px;
   height: 459.33;
-  margin-bottom: 3vh
+  margin-bottom: 2vh
+}
+
+#proj5img{
+  width: 75%;
+  height: 75%;
+  margin-bottom: 2vh;
+  margin-top: 3vh
 }
 
 .slideshow-container{
@@ -330,12 +338,14 @@ padding:0px;
 }
 
 
-
 .mySlides {
   display: none;
 }
 
-
+.projtext{
+  margin-left: 2.5vw;
+  margin-right: 2.5vw
+}
 
 .prev, .next {
   padding: 16px;
@@ -382,8 +392,8 @@ padding:0px;
 
 .dot {
   cursor: pointer;
-  height: 1.05vh;
-  width: 1.05vh;
+  height: 9px;
+  width: 9px;
   margin: 0 0.12vw;
   background-color: black;
   border-radius: 50%;
@@ -477,7 +487,11 @@ padding:0px;
   .header{
     height: 60px;
     width: 375px;
-    font-size: 10px
+    font-size: 30%
+  }
+
+  .titlediv{
+    margin-top: 1vh
   }
 
   .about{
@@ -518,7 +532,8 @@ padding:0px;
 
   .links{
     font-size: 70%;
-    margin-top: 0.6vh
+    margin-top: 0.6vh;
+    margin-right: -4vw
   }
 
   .aboutText{
@@ -590,6 +605,18 @@ padding:0px;
     max-width: 1.84vh;
     margin-bottom: -0.25vh;
     margin-right: 1.3vw
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 1.05vh;
+    width: 1.05vh;
+    margin: 0 0.12vw;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+    transition: background-color 0.2s ease;
   }
 
   .mediaFoot{
