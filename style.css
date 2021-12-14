@@ -487,12 +487,12 @@ padding:0px;
   .header{
     height: 60px;
     width: 375px;
-    font-size: 35%
+    font-size: 40%
   }
 
 
   .headtext {
-    gap: 40vw;
+    gap: 30vw;
     margin-top: 0.8vh;
     width: 375px;
     margin-right: -1vw
