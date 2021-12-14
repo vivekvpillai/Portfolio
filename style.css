@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Zen+Kaku+Gothic+New&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
 
 body{
 background-image: linear-gradient(to right, #A1D6EA, #D4EFF9, #F5FDFF);
-font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
 }
 
 *{
@@ -41,11 +41,6 @@ padding:0px;
   gap: 57vw;
 }
 
-@media only screen and (max-width: 1024px) {
-  .headtext {
-    gap: 40vw
-  }
-}
 
 @media only screen and (min-width: 1400px) {
   .headtext {
@@ -68,7 +63,7 @@ padding:0px;
   flex-direction: row;
   gap: 1vw;
   padding-top: 0.5vh;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .alink{
@@ -135,6 +130,7 @@ padding:0px;
   height: 5%;
 }
 
+
 .projtext{
   margin-bottom: 0.7vh
 }
@@ -145,13 +141,6 @@ padding:0px;
 
 .movebuttons{
   margin-bottom: 4vh
-}
-
- @media only screen and (max-width: 1024px) {
-  .skillimg {
-    width: 122.5px;
-    height: 122.5px
-  }
 }
 
 
@@ -249,7 +238,7 @@ padding:0px;
   -webkit-user-select: none;
   touch-action: manipulation;
   font-weight: bolder;
-  height: 41px
+  height: 33.55px
 }
 
 .gitbutton:hover{
@@ -274,6 +263,7 @@ padding:0px;
   user-select: none;
   -webkit-user-select: none;
   font-family: 'Libre Franklin', sans-serif;
+
 }
 
 .sitebutton:hover{
@@ -283,10 +273,10 @@ padding:0px;
 
 
 .gitlogo{
-  max-height: 2vh;
-  max-width: 2vh;
-  margin-bottom: -0.32vh;
-  margin-right: 0.5vw
+  max-height: 1.84vh;
+  max-width: 1.84vh;
+  margin-bottom: -0.25vh;
+  margin-right: 1.3vw
 }
 
 #projimg1{
@@ -296,12 +286,6 @@ padding:0px;
   margin-top: 3vh
 }
 
-@media only screen and (max-width: 1024px) {
-  #projimg1{
-  width: 40vh;
-  height: 21vh
-  }
-}
 
 #proj2img1{
   width: 817.33px;
@@ -468,4 +452,119 @@ padding:0px;
 
 .FirstLdImg{
   display: block
+}
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 400px) {
+  .skills{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skillimg{
+    width: 2px;
+    height: 2px
+  }
+
+  .header{
+    height: 60px;
+    width: 375px;
+    font-size: 10px
+  }
+
+  .about{
+    padding: 35%
+  }
+
+  .aboutText{
+    font-size: 10px
+  }
+
+  .biocontainer{
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  .bioimg{
+    display: flex;
+    align-content: center;
+  }
+
+  #gradpic{
+    margin-top: 100px;
+    width: 74.815px;
+    height: 217.44px
+  }
+
+
+  .biotext{
+    font-size: 10px
+  }
+
+  .headtext {
+    gap: 25vw;
+    margin-top: 0.8vh;
+    width: 375px;
+    margin-right: -1vw
+  }
+
+  .links{
+    font-size: 70%;
+    margin-top: 0.6vh
+  }
+
+  .aboutText{
+    margin-left: -12vw;
+    transform: scale(1.7);
+  }
+
+  .resumebutton{
+    width: 100%;
+    height: 100%;
+    font-size: 70%
+  }
+
+  .contactbutton{
+    width: 100%;
+    height: 100%;
+    font-size: 70%
+  }
+
+  #projimg1{
+    width: 300.4px;
+    height: 170px;
+    margin-bottom: 3vh;
+    margin-top: 3vh
+  }
+
+  #proj2img1{
+    width: 326.932px;
+    height: 181.332px
+  }
+
+  #proj2img2{
+    width: 340.26668px;
+    height: 114.4px
+  }
+
+  .projtext{
+    margin-left: 5vw;
+    margin-right: 5vw
+  }
+
+  .projtitle{
+
+  }
+
+  .mediaFoot{
+    margin-left: 3.7vw;
+  }
 }
