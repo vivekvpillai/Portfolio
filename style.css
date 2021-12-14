@@ -238,7 +238,7 @@ padding:0px;
   -webkit-user-select: none;
   touch-action: manipulation;
   font-weight: bolder;
-  height: 33.55px
+  height: 40px
 }
 
 .gitbutton:hover{
@@ -273,10 +273,10 @@ padding:0px;
 
 
 .gitlogo{
-  max-height: 1.84vh;
-  max-width: 1.84vh;
-  margin-bottom: -0.25vh;
-  margin-right: 1.3vw
+  max-height: 1.725vh;
+  max-width: 1.725vh;
+  margin-bottom: -0.4vh;
+  margin-right: 0.5vw
 }
 
 #projimg1{
@@ -562,6 +562,34 @@ padding:0px;
 
   .projtitle{
 
+  }
+
+  .gitbutton{
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #161c22;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    height: 4vh;
+    margin: 2vh 0 -1vh 1vh;
+    padding: 1vh 1vh 1.5vh 1vh;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bolder;
+    height: 33.55px
+  }
+
+  .gitlogo{
+    max-height: 1.84vh;
+    max-width: 1.84vh;
+    margin-bottom: -0.25vh;
+    margin-right: 1.3vw
   }
 
   .mediaFoot{
