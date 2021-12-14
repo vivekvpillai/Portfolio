@@ -487,8 +487,23 @@ padding:0px;
   .header{
     height: 60px;
     width: 375px;
-    font-size: 30%
+    font-size: 35%
   }
+
+
+  .headtext {
+    gap: 40vw;
+    margin-top: 0.8vh;
+    width: 375px;
+    margin-right: -1vw
+  }
+
+  .links{
+    font-size: 70%;
+    margin-top: 0.6vh;
+    margin-right: -4vw
+  }
+
 
   .titlediv{
     margin-top: 1vh
@@ -521,19 +536,6 @@ padding:0px;
 
   .biotext{
     font-size: 10px
-  }
-
-  .headtext {
-    gap: 25vw;
-    margin-top: 0.8vh;
-    width: 375px;
-    margin-right: -1vw
-  }
-
-  .links{
-    font-size: 70%;
-    margin-top: 0.6vh;
-    margin-right: -4vw
   }
 
   .aboutText{
