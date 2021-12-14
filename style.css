@@ -149,7 +149,9 @@ padding:0px;
 }
 
 #jsimg{
-  padding-top: 1vh
+  padding-top: 1vh;
+  width: 6%;
+  height: 6%
 }
 
 #jqueryimg{
@@ -157,7 +159,9 @@ padding:0px;
 }
 
 #expressimg{
- padding-top: 4vh
+ padding-top: 4.9vh;
+ width: 4%;
+ height: 4%
 }
 
 .projtitle{
@@ -550,19 +554,27 @@ padding:0px;
     transform: scale(1.7);
   }
 
+  .skills{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    gap: 2.2%
+  }
+
   .skilltitle{
     font-size: 60%
   }
 
   .skillimg{
-    width: 17px;
-    height: 17px
+    width: 24px;
+    height: 24px
   }
 
   #reactimg{
     width: 30px;
     height: 10px;
-    padding-top: 5px
+    padding-top: 7.7px
   }
 
   #jsimg{
@@ -578,7 +590,7 @@ padding:0px;
   #expressimg{
    width: 21.5px;
    height: 5px;
-   padding-top: 6px
+   padding-top: 9.7px
   }
 
   #projimg1{
