@@ -12,10 +12,10 @@
      <title>Vivek Pillai - Portfolio</title>
   </head>
   <body>
-    <div class="header sticky" id="myHeader">
+    <div class="header sticky">
       <div class="headtext">
         <div class="titlediv">
-          <h1 class="title">VIVEK PILLAI</h1>
+          <a class="alink" href="#myHeader"><h1 class="title">VIVEK PILLAI</h1></a>
         </div>
         <div class="links">
           <a class="alink" href="#about"><h2>About</h2></a>
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <div class="contcontainer">
+    <div class="contcontainer" id="myHeader">
 
       <div class="maindiv">
         <div id="about" class="about">
@@ -78,7 +78,7 @@
         </div>
 
         <!-- Slideshow container -->
-        <div id="projects" class="slideshow-container">
+        <div class="slideshow-container">
 
           <!-- Full-width SkillImages with number and caption text -->
           <div class="mySlides fade FirstLdImg">
@@ -171,7 +171,7 @@
         <br>
 
         <!-- The dots/circles -->
-        <div style="text-align:center">
+        <div id="projects" style="text-align:center">
           <span class="dot active" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
