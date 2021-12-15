@@ -295,7 +295,7 @@ padding:0px;
 #proj2img1{
   width: 817.33px;
   height: 453.33px;
-  margin-top: 2vh
+  margin-top: 3vh
 }
 
 #proj2img2{
@@ -307,7 +307,8 @@ padding:0px;
 #proj3img{
   width: 847.33px;
   height: 458.66px;
-  margin-bottom: 2vh
+  margin-bottom: 2vh;
+  margin-top: 3vh
 }
 
 .proj4imgdiv{
