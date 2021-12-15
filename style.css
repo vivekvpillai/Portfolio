@@ -524,15 +524,6 @@ padding:0px;
     margin-top: 1vh
   }
 
-  #resumecolor{
-    text-decoration: none;
-    color: black
-  }
-
-  #contactcolor{
-    text-decoration: none;
-    color: black
-  }
 
   .about{
     padding: 35%
@@ -546,7 +537,7 @@ padding:0px;
     color: black
   }
 
-  .resumebutton{
+  /* .resumebutton{
     width: 100%;
     height: 100%;
     font-size: 70%
@@ -556,6 +547,23 @@ padding:0px;
     width: 100%;
     height: 100%;
     font-size: 70%
+  } */
+
+  .resumebutton{
+    text-decoration: none;
+    color: black;
+    width: 30px;
+    height: 25px;
+    font-size: 40%
+  }
+
+
+  .contactbutton{
+    text-decoration: none;
+    color: black;
+    width: 60px;
+    height: 25px;
+    font-size: 40%
   }
 
   .biocontainer{
