@@ -20,6 +20,7 @@ padding:0px;
   color: white;
   border-bottom: #f09b05 0.38vh solid;
   border-top: #f09b05 0.315vh solid;
+  z-index: 1
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -135,7 +136,8 @@ padding:0px;
 }
 
 .projimg{
-  margin-top: 4vh
+  margin-top: 4vh;
+  z-index: 0
 }
 
 .movebuttons{
@@ -316,13 +318,14 @@ padding:0px;
 }
 
 #proj4img1{
-  width: 720px;
-  height: 353.625px;
+  width: 576px;
+  height: 282.9px;
+  margin-top: 3vh
 }
 
 #proj4img2{
-  width: 720px;
-  height: 357.75px;
+  width: 576px;
+  height: 286.2px;
   margin-bottom: 2vh
 }
 
@@ -521,6 +524,16 @@ padding:0px;
     margin-top: 1vh
   }
 
+  #resumecolor{
+    text-decoration: none;
+    color: black
+  }
+
+  #contactcolor{
+    text-decoration: none;
+    color: black
+  }
+
   .about{
     padding: 35%
   }
@@ -690,6 +703,12 @@ padding:0px;
     display: inline-block;
     transition: background-color 0.2s ease;
   }
+
+  .active, .dot:after {
+    background-color: #f09b05;
+    border: 1px solid black;
+  }
+
 
   .mediaFoot{
     margin-left: 3.7vw;
