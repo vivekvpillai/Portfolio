@@ -299,8 +299,8 @@ padding:0px;
 }
 
 #proj2img2{
-  width: 850.6667px;
-  height: 286px;
+  max-width: 83%;
+  max-height: 83%;
   margin-bottom: 2vh
 }
 
@@ -648,8 +648,8 @@ padding:0px;
   }
 
   #proj2img2{
-    width: 340.26668px;
-    height: 114.4px
+    max-width: 83%;
+    max-height: 83%
   }
 
   #proj3img{
