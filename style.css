@@ -313,20 +313,24 @@ padding:0px;
 .proj4imgdiv{
   display: flex;
   flex-direction: row;
-  gap: 1vh;
-  margin-top: 3vh
+  gap: 3vh;
+  justify-content: center;
+  z-index: 0;
+  margin-top: 4vh
 }
 
 #proj4img1{
   width: 576px;
   height: 282.9px;
+  margin-bottom: 2vh;
   margin-top: 3vh
 }
 
 #proj4img2{
   width: 576px;
   height: 286.2px;
-  margin-bottom: 2vh
+  margin-bottom: 2vh;
+  margin-top: 3vh
 }
 
 #proj5img{
@@ -653,15 +657,24 @@ padding:0px;
     margin-bottom: 2vh
   }
 
+  .proj4imgdiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    gap: 0
+  }
+
   #proj4img1{
     width: 240px;
     height: 117.875px;
+    margin-bottom: 2.8vh
   }
 
   #proj4img2{
     width: 240px;
     height: 119.25px;
-    margin-bottom: 2vh
+    margin-bottom: 2vh;
+    margin-top: 0
   }
 
   .projtext{
