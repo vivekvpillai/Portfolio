@@ -588,7 +588,8 @@ padding:0px;
   }
 
   .biotext{
-    font-size: 10px
+    font-size: 10px;
+    gap: 7px
   }
 
   .aboutText{
